@@ -73,17 +73,17 @@ export default function Home() {
                 priority
               />
             </div>
-            <div className="flex flex-col text-center md:text-left gap-2 sm:gap-4">
+            <div className="flex flex-col text-center md:text-left gap-1">
               <h3 className="text-4xl font-roboto font-semibold">
                 DR MAHMUDA DEWAN
               </h3>
-              <div className="flex flex-col gap-1">
-                <p className="text-lg font-inter">GENERAL PRACTITIONER</p>
-                <p className="text-lg font-inter">MBBS (DU), CCD (BIRDEM)</p>
-                <p className="text-lg font-inter">
-                  TRAINING ON MEDICINE & DIABETOLOGY
-                </p>
-              </div>
+              <p className="text-xl font-semibold font-inter">
+                GENERAL PRACTITIONER
+              </p>
+              <p className="text-lg font-inter">MBBS (DU), CCD (BIRDEM)</p>
+              <p className="text-lg font-inter">
+                TRAINING ON MEDICINE & DIABETOLOGY
+              </p>
             </div>
           </div>
         </section>
