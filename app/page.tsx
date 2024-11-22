@@ -44,14 +44,6 @@ export default function Home() {
               DOCTOR&apos;S HUB <br className="md:hidden" /> &{" "}
               <br className="md:hidden" /> PHARMACY
             </h2>
-            <div className="flex justify-center">
-              <a
-                href="tel:+8801324404552"
-                className="text-xl font-inter text-white py-3 px-8 border border-white rounded-md"
-              >
-                +8801324404552
-              </a>
-            </div>
             <div className="text-base font-inter text-white">
               House: 408/3, Road: 07 (West),
               <br className="sm:hidden" /> DOHS Baridhara,
@@ -96,7 +88,7 @@ export default function Home() {
               {services.map((service, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-center rounded-md border-2 font-inter uppercase border-white p-3 text-white"
+                  className="flex items-center justify-center rounded-md border-2 font-inter text-sm uppercase border-white p-3 text-white"
                 >
                   {service}
                 </div>
@@ -104,6 +96,21 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className="flex justify-center py-10 md:py-24 px-4 sm:px-0">
+          <div className="container flex justify-center gap-4 md:gap-8 text-center">
+            <div className="flex w-[400px] h-[250px]">
+              <Image
+                src="/card.jpeg"
+                alt="Doctor Card Image"
+                className="rounded-md shadow-[0_0_5px_rgba(0,0,0,0.8)]"
+                width={400}
+                height={250}
+              />
+            </div>
+          </div>
+        </section>
+
         <section className="flex justify-center py-2 md:py-4 bg-black">
           <p className="text-sm font-roboto font-semibold text-white">
             Made By Aquibur Rahman Khan
